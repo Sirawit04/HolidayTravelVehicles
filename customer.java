@@ -1,10 +1,10 @@
-public class Customer {
+public class customer {
     String customerID;
     String customerName;
     String customerAddress;
     String customerNumber;
 
-    Customer(String id, String name, String address, String number) {
+    customer(String id, String name, String address, String number) {
         customerID = id;
         customerName = name;
         customerAddress = address;
