@@ -15,7 +15,9 @@ public class Vehicle {
         baseCost = cost;
     }
 
-    void updateInventory() {
-        System.out.println("Vehicle " + name + " added to inventory.");
-    }
+
+   void getVehicleinformation() {
+       System.out.println("Vehicle: " + this.serialNum + " " + this.year + " " +  this.name);
+
+   }
 }
